@@ -1,0 +1,23 @@
+{
+  "name": "mcp-yandex-wiki",
+  "version": "1.0.0",
+  "description": "Minimal MCP server for Yandex Wiki (read + write).",
+  "type": "module",
+  "private": true,
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slartus/mcp-yandex-wiki.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "yandex-wiki",
+    "claude-code"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  }
+}
